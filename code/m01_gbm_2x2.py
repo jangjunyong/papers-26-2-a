@@ -67,7 +67,7 @@ def run(mode):
     tdays = np.sort(pd.read_parquet(DATA / "daily" / "club_db" / "panel_v3.parquet", columns=["date"]).date.unique())
     out = []
     for i, r in enumerate(retrain):
-        cut = tdays[np.searchsorted(tdays, r) - EMBARGO]
+        cut = tdays[np.searchsorted(tdays, r.to_datetime64()) - EMBARGO]
         nxt = retrain[i + 1] if i + 1 < len(retrain) else t1 + pd.Timedelta(days=1)
         tr = d[(d.date >= TRAIN_START) & (d.label_end_date <= cut) & d.y.notna()]
         te = d[(d.date >= r) & (d.date < nxt) & (d.date <= t1)].copy()
