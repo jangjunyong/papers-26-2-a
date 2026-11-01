@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\jacob\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py", line 54, in _wrapfunc
+    return bound(*args, **kwds)
+TypeError: '<' not supported between instances of 'int' and 'Timestamp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jacob\Documents\Obsidian Vault\PAPERS\26-2\03_차트CNN_연구\code\t01_test_run.py", line 154, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\jacob\Documents\Obsidian Vault\PAPERS\26-2\03_차트CNN_연구\code\t01_test_run.py", line 92, in main
+    s, ic = m01.run("test")
+            ~~~~~~~^^^^^^^^
+  File "C:\Users\jacob\Documents\Obsidian Vault\PAPERS\26-2\03_차트CNN_연구\code\m01_gbm_2x2.py", line 70, in run
+    cut = tdays[np.searchsorted(tdays, r) - EMBARGO]
+                ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py", line 1539, in searchsorted
+    return _wrapfunc(a, 'searchsorted', v, side=side, sorter=sorter)
+  File "C:\Users\jacob\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py", line 63, in _wrapfunc
+    return _wrapit(obj, method, *args, **kwds)
+  File "C:\Users\jacob\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py", line 43, in _wrapit
+    result = getattr(arr, method)(*args, **kwds)
+TypeError: '<' not supported between instances of 'int' and 'Timestamp'
