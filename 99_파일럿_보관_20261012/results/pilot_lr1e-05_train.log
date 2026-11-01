@@ -1,0 +1,33 @@
+종목 200개
+학습 이미지 58153장, 평가 이미지 17918장, 학습 라벨 상승 비율 0.508
+epoch 1: val loss 0.76725
+epoch 2: val loss 0.76842
+epoch 3: val loss 0.75106
+epoch 4: val loss 0.74355
+epoch 5: val loss 0.73500
+epoch 6: val loss 0.73448
+epoch 7: val loss 0.72938
+epoch 8: val loss 0.74071
+epoch 9: val loss 0.72480
+epoch 10: val loss 0.72410
+epoch 11: val loss 0.72457
+epoch 12: val loss 0.73145
+{
+ "n_images": 17918,
+ "accuracy": 0.5029021096104476,
+ "weeks": 100,
+ "hl_weekly_mean": 0.0022817472189455507,
+ "hl_sharpe": 0.9370035117260933,
+ "decile_mean": [
+  -0.00288,
+  -0.00357,
+  -0.00229,
+  -0.00151,
+  -0.00248,
+  -0.00328,
+  -0.0013,
+  0.00061,
+  -0.00071,
+  -0.0006
+ ]
+}

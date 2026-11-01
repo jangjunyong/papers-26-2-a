@@ -1,0 +1,1 @@
+{"id": "junyong928/kospi-chart-cnn-pilot", "title": "kospi-chart-cnn-pilot", "code_file": "kernel.py", "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": false, "dataset_sources": ["junyong928/kospi-chart-pilot"], "competition_sources": [], "kernel_sources": []}

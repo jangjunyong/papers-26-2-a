@@ -1,0 +1,83 @@
+[{"stream_name":"stdout","time":11.392420515,"data":"입력 /kaggle/input/datasets/junyong928/kospi-chart-pilot/ | 장치 cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":191.664210204,"data":"w_lr1e-4 epoch 1: val loss 0.82300\n"}
+,{"stream_name":"stdout","time":372.574613419,"data":"w_lr1e-4 epoch 2: val loss 0.69884\n"}
+,{"stream_name":"stdout","time":553.550789032,"data":"w_lr1e-4 epoch 3: val loss 0.71407\n"}
+,{"stream_name":"stdout","time":734.144777824,"data":"w_lr1e-4 epoch 4: val loss 0.69454\n"}
+,{"stream_name":"stdout","time":915.248807936,"data":"w_lr1e-4 epoch 5: val loss 0.69160\n"}
+,{"stream_name":"stdout","time":1095.894284023,"data":"w_lr1e-4 epoch 6: val loss 0.69572\n"}
+,{"stream_name":"stdout","time":1276.755320017,"data":"w_lr1e-4 epoch 7: val loss 0.70205\n"}
+,{"stream_name":"stdout","time":1290.9793541,"data":"w_lr1e-4 {'accuracy': 0.5367723456235433, 'hl_weekly_mean': 0.006476197565287818, 'hl_sharpe': 3.095687101199581, 'hl_t': 4.292945606218296, 'minutes': 21.3}\n"}
+,{"stream_name":"stdout","time":2183.018657148,"data":"d_lr1e-4 epoch 1: val loss 0.69266\n"}
+,{"stream_name":"stdout","time":3068.211229203,"data":"d_lr1e-4 epoch 2: val loss 0.69189\n"}
+,{"stream_name":"stdout","time":3952.856757758,"data":"d_lr1e-4 epoch 3: val loss 0.69076\n"}
+,{"stream_name":"stdout","time":4836.437945854,"data":"d_lr1e-4 epoch 4: val loss 0.68902\n"}
+,{"stream_name":"stdout","time":5719.984074221,"data":"d_lr1e-4 epoch 5: val loss 0.68660\n"}
+,{"stream_name":"stdout","time":6604.924492163,"data":"d_lr1e-4 epoch 6: val loss 0.68708\n"}
+,{"stream_name":"stdout","time":7491.100538377,"data":"d_lr1e-4 epoch 7: val loss 0.68525\n"}
+,{"stream_name":"stdout","time":8377.601453939,"data":"d_lr1e-4 epoch 8: val loss 0.68449\n"}
+,{"stream_name":"stdout","time":9263.405675893,"data":"d_lr1e-4 epoch 9: val loss 0.68480\n"}
+,{"stream_name":"stdout","time":10149.433019238,"data":"d_lr1e-4 epoch 10: val loss 0.68450\n"}
+,{"stream_name":"stdout","time":10163.392548719,"data":"d_lr1e-4 {'accuracy': 0.5429782932240038, 'hl_weekly_mean': 0.010609117162449545, 'hl_sharpe': 5.406191021421821, 'hl_t': 7.497038051034391, 'minutes': 147.9}\n"}
+,{"stream_name":"stdout","time":10371.588516848,"data":"w_lr1e-4_tb epoch 1: val loss 0.71820\n"}
+,{"stream_name":"stdout","time":10579.483851445,"data":"w_lr1e-4_tb epoch 2: val loss 0.70224\n"}
+,{"stream_name":"stdout","time":10787.303284248,"data":"w_lr1e-4_tb epoch 3: val loss 0.69987\n"}
+,{"stream_name":"stdout","time":10995.842859434,"data":"w_lr1e-4_tb epoch 4: val loss 0.74236\n"}
+,{"stream_name":"stdout","time":11203.486715981,"data":"w_lr1e-4_tb epoch 5: val loss 0.70395\n"}
+,{"stream_name":"stdout","time":11217.509849325,"data":"w_lr1e-4_tb {'accuracy': 0.5305804386285137, 'hl_weekly_mean': 0.002998714858634704, 'hl_sharpe': 1.450350696603717, 'hl_t': 2.011274540003699, 'minutes': 17.6}\n"}
+,{"stream_name":"stdout","time":12222.78064923,"data":"d_lr1e-4_tb epoch 1: val loss 0.74056\n"}
+,{"stream_name":"stdout","time":13225.027757578,"data":"d_lr1e-4_tb epoch 2: val loss 0.69991\n"}
+,{"stream_name":"stdout","time":14227.265797674,"data":"d_lr1e-4_tb epoch 3: val loss 0.70703\n"}
+,{"stream_name":"stdout","time":15229.607665529,"data":"d_lr1e-4_tb epoch 4: val loss 0.68855\n"}
+,{"stream_name":"stdout","time":16231.760681721,"data":"d_lr1e-4_tb epoch 5: val loss 0.68959\n"}
+,{"stream_name":"stdout","time":17233.963566184,"data":"d_lr1e-4_tb epoch 6: val loss 0.68961\n"}
+,{"stream_name":"stdout","time":17247.926948843,"data":"d_lr1e-4_tb {'accuracy': 0.5444806380051108, 'hl_weekly_mean': 0.008811132038419048, 'hl_sharpe': 3.956824535312945, 'hl_t': 5.48712836541723, 'minutes': 100.5}\n"}
+,{"stream_name":"stdout","time":17428.901916638,"data":"w_lr1e-5 epoch 1: val loss 0.75016\n"}
+,{"stream_name":"stdout","time":17609.343903031,"data":"w_lr1e-5 epoch 2: val loss 0.72608\n"}
+,{"stream_name":"stdout","time":17790.557756586,"data":"w_lr1e-5 epoch 3: val loss 0.71452\n"}
+,{"stream_name":"stdout","time":17971.387730066,"data":"w_lr1e-5 epoch 4: val loss 0.71075\n"}
+,{"stream_name":"stdout","time":18152.161303045,"data":"w_lr1e-5 epoch 5: val loss 0.70933\n"}
+,{"stream_name":"stdout","time":18333.687165783,"data":"w_lr1e-5 epoch 6: val loss 0.71496\n"}
+,{"stream_name":"stdout","time":18514.351876705,"data":"w_lr1e-5 epoch 7: val loss 0.69556\n"}
+,{"stream_name":"stdout","time":18695.351484482,"data":"w_lr1e-5 epoch 8: val loss 0.69802\n"}
+,{"stream_name":"stdout","time":18876.026683734,"data":"w_lr1e-5 epoch 9: val loss 0.69309\n"}
+,{"stream_name":"stdout","time":19056.956211606,"data":"w_lr1e-5 epoch 10: val loss 0.69223\n"}
+,{"stream_name":"stdout","time":19237.708959206,"data":"w_lr1e-5 epoch 11: val loss 0.69114\n"}
+,{"stream_name":"stdout","time":19418.812010073,"data":"w_lr1e-5 epoch 12: val loss 0.69907\n"}
+,{"stream_name":"stdout","time":19599.643308132,"data":"w_lr1e-5 epoch 13: val loss 0.69285\n"}
+,{"stream_name":"stdout","time":19613.653661001,"data":"w_lr1e-5 {'accuracy': 0.524837831007273, 'hl_weekly_mean': 0.005492904196280488, 'hl_sharpe': 2.7374128816676118, 'hl_t': 3.796108656526236, 'minutes': 39.4}\n"}
+,{"stream_name":"stdout","time":20497.956340389,"data":"d_lr1e-5 epoch 1: val loss 0.70381\n"}
+,{"stream_name":"stdout","time":21380.736388752,"data":"d_lr1e-5 epoch 2: val loss 0.69590\n"}
+,{"stream_name":"stdout","time":22264.93303815,"data":"d_lr1e-5 epoch 3: val loss 0.68964\n"}
+,{"stream_name":"stdout","time":23148.408005503,"data":"d_lr1e-5 epoch 4: val loss 0.69138\n"}
+,{"stream_name":"stdout","time":24032.589652879,"data":"d_lr1e-5 epoch 5: val loss 0.68834\n"}
+,{"stream_name":"stdout","time":24915.934635161,"data":"d_lr1e-5 epoch 6: val loss 0.69064\n"}
+,{"stream_name":"stdout","time":25800.094179754,"data":"d_lr1e-5 epoch 7: val loss 0.69309\n"}
+,{"stream_name":"stdout","time":25814.052818814,"data":"d_lr1e-5 {'accuracy': 0.5429361714077111, 'hl_weekly_mean': 0.007383426772376232, 'hl_sharpe': 3.360674599713183, 'hl_t': 4.660417149775115, 'minutes': 103.3}\n"}
+,{"stream_name":"stdout","time":26702.943405421,"data":"d_novol epoch 1: val loss 0.69275\n"}
+,{"stream_name":"stdout","time":27588.919634709,"data":"d_novol epoch 2: val loss 0.69603\n"}
+,{"stream_name":"stdout","time":28472.782659114,"data":"d_novol epoch 3: val loss 0.68986\n"}
+,{"stream_name":"stdout","time":29356.171226391,"data":"d_novol epoch 4: val loss 0.68981\n"}
+,{"stream_name":"stdout","time":30241.266750098,"data":"d_novol epoch 5: val loss 0.68736\n"}
+,{"stream_name":"stdout","time":31125.483988012,"data":"d_novol epoch 6: val loss 0.68801\n"}
+,{"stream_name":"stdout","time":32007.283434721,"data":"d_novol epoch 7: val loss 0.68685\n"}
+,{"stream_name":"stdout","time":32888.984214512,"data":"d_novol epoch 8: val loss 0.68657\n"}
+,{"stream_name":"stdout","time":33769.168603986,"data":"d_novol epoch 9: val loss 0.68609\n"}
+,{"stream_name":"stdout","time":34653.95283153,"data":"d_novol epoch 10: val loss 0.68582\n"}
+,{"stream_name":"stdout","time":35536.544043639,"data":"d_novol epoch 11: val loss 0.68557\n"}
+,{"stream_name":"stdout","time":36419.937861362,"data":"d_novol epoch 12: val loss 0.68894\n"}
+,{"stream_name":"stdout","time":37301.498249119,"data":"d_novol epoch 13: val loss 0.68623\n"}
+,{"stream_name":"stdout","time":37315.43499522,"data":"d_novol {'accuracy': 0.5373760916570722, 'hl_weekly_mean': 0.007174246709525712, 'hl_sharpe': 3.5092838796118704, 'hl_t': 4.866501141576845, 'minutes': 191.7}\n"}
+,{"stream_name":"stdout","time":37497.77165166,"data":"w_h20 epoch 1: val loss 0.74518\n"}
+,{"stream_name":"stdout","time":37679.640365014,"data":"w_h20 epoch 2: val loss 0.71527\n"}
+,{"stream_name":"stdout","time":37861.337058929,"data":"w_h20 epoch 3: val loss 0.69535\n"}
+,{"stream_name":"stdout","time":38043.17285696,"data":"w_h20 epoch 4: val loss 0.69104\n"}
+,{"stream_name":"stdout","time":38224.755405962,"data":"w_h20 epoch 5: val loss 0.70106\n"}
+,{"stream_name":"stdout","time":38406.76565138,"data":"w_h20 epoch 6: val loss 0.71083\n"}
+,{"stream_name":"stdout","time":38420.643463901,"data":"w_h20 {'accuracy': 0.5119716312056738, 'hl_weekly_mean': -0.0009558401369934339, 'hl_sharpe': -0.26566657454977416, 'hl_t': -0.3665665579837829, 'minutes': 18.4}\n"}
+,{"stream_name":"stderr","time":38427.325237498,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":38427.32526935,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":38427.622375775,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":38427.622403453,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":38428.489972634,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":38429.576938835,"data":"[NbConvertApp] Writing 316236 bytes to __results__.html\n"}
+]

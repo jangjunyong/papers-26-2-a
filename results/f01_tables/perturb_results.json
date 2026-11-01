@@ -1,0 +1,229 @@
+[
+ {
+  "name": "A",
+  "cutoff": "2019-06-28",
+  "rows": 366627,
+  "tickers": 882,
+  "dates": 494,
+  "cols": 87,
+  "mismatch_total": 0,
+  "mismatch_cols": {},
+  "ctl": {
+   "ctl_fwd_ret5": 99,
+   "ctl_flow5_centered": 99,
+   "ctl_dsc_periodic_next5": 5,
+   "ctl_dsc_stake_next5": 26,
+   "ctl_dsc_exch_next5": 21,
+   "ctl_fin_by_period_end": 13
+  },
+  "changed": {
+   "flow_indiv_5": [
+    34957,
+    34990
+   ],
+   "str5": [
+    34968,
+    34990
+   ],
+   "log_mktcap": [
+    34968,
+    34990
+   ],
+   "amihud20": [
+    34988,
+    34990
+   ],
+   "dsc_stake_20": [
+    17353,
+    34990
+   ],
+   "dsc_amend_60": [
+    25182,
+    34990
+   ],
+   "fin_size": [
+    34378,
+    34990
+   ],
+   "fin_roe": [
+    31279,
+    34990
+   ]
+  },
+  "changed_rk_others": [
+   261944,
+   263180
+  ],
+  "cross_rows": 263180,
+  "cross_mismatch": 0,
+  "info": {
+   "panel_rows": 171484,
+   "event_rows": 71616,
+   "fsav_rows": 2812,
+   "fs_rows": 142666
+  },
+  "label": null,
+  "S": [
+   "011700",
+   "009180",
+   "000070",
+   "103130",
+   "002390"
+  ]
+ },
+ {
+  "name": "B",
+  "cutoff": "2022-07-29",
+  "rows": 492497,
+  "tickers": 918,
+  "dates": 655,
+  "cols": 87,
+  "mismatch_total": 0,
+  "mismatch_cols": {},
+  "ctl": {
+   "ctl_fwd_ret5": 96,
+   "ctl_flow5_centered": 96,
+   "ctl_dsc_periodic_next5": 4,
+   "ctl_dsc_stake_next5": 22,
+   "ctl_dsc_exch_next5": 36,
+   "ctl_fin_by_period_end": 463
+  },
+  "changed": {
+   "flow_indiv_5": [
+    20215,
+    20246
+   ],
+   "str5": [
+    20234,
+    20246
+   ],
+   "log_mktcap": [
+    20224,
+    20246
+   ],
+   "amihud20": [
+    20244,
+    20246
+   ],
+   "dsc_stake_20": [
+    10798,
+    20246
+   ],
+   "dsc_amend_60": [
+    16957,
+    20246
+   ],
+   "fin_size": [
+    20050,
+    20246
+   ],
+   "fin_roe": [
+    17802,
+    20246
+   ]
+  },
+  "changed_rk_others": [
+   151557,
+   152274
+  ],
+  "cross_rows": 152274,
+  "cross_mismatch": 0,
+  "info": {
+   "panel_rows": 99913,
+   "event_rows": 23092,
+   "fsav_rows": 1695,
+   "fs_rows": 91719
+  },
+  "label": null,
+  "S": [
+   "015540",
+   "025000",
+   "006380",
+   "002420",
+   "009680"
+  ]
+ },
+ {
+  "name": "C",
+  "cutoff": "2016-06-24",
+  "rows": 247467,
+  "tickers": 833,
+  "dates": 338,
+  "cols": 87,
+  "mismatch_total": 0,
+  "mismatch_cols": {},
+  "ctl": {
+   "ctl_fwd_ret5": 100,
+   "ctl_flow5_centered": 99,
+   "ctl_dsc_periodic_next5": 4,
+   "ctl_dsc_stake_next5": 17,
+   "ctl_dsc_exch_next5": 28,
+   "ctl_fin_by_period_end": 13
+  },
+  "changed": {
+   "flow_indiv_5": [
+    50029,
+    50066
+   ],
+   "str5": [
+    50032,
+    50066
+   ],
+   "log_mktcap": [
+    50041,
+    50066
+   ],
+   "amihud20": [
+    50066,
+    50066
+   ],
+   "dsc_stake_20": [
+    28023,
+    50066
+   ],
+   "dsc_amend_60": [
+    40283,
+    50066
+   ],
+   "fin_size": [
+    49344,
+    50066
+   ],
+   "fin_roe": [
+    46235,
+    50066
+   ]
+  },
+  "changed_rk_others": [
+   365088,
+   367017
+  ],
+  "cross_rows": 367017,
+  "cross_mismatch": 0,
+  "info": {
+   "panel_rows": 242463,
+   "event_rows": 74191,
+   "fsav_rows": 3962,
+   "fs_rows": 155179
+  },
+  "label": {
+   "done_rows": 246712,
+   "mismatch": {
+    "label_ret5": 0,
+    "label_status": 0,
+    "label_end_date": 0,
+    "label_censored": 0,
+    "fwd_ret5_panel": 0
+   },
+   "future_rows": 100,
+   "future_changed": 100
+  },
+  "S": [
+   "000760",
+   "002240",
+   "023800",
+   "001380",
+   "000320"
+  ]
+ }
+]

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+# 원자료·중간 산출물은 PAPERS/data/chartcnn/ 에 두고 저장소에 넣지 않는다
+*.parquet
+*.csv
+*.xlsx
+*.npy
+*.npz
+*.pt
+*.ckpt
+results/raw/
+.omc/
+**/.omc/
