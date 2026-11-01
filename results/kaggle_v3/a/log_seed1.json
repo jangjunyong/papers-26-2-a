@@ -1,0 +1,16 @@
+{
+ "seed": 1,
+ "epochs": [
+  "epoch 1: val loss 0.70113",
+  "epoch 2: val loss 0.68862",
+  "epoch 3: val loss 0.68956",
+  "epoch 4: val loss 0.68772",
+  "epoch 5: val loss 0.68843",
+  "epoch 6: val loss 0.68871"
+ ],
+ "minutes": 159.6,
+ "n_train": 1248636,
+ "n_val": 335361,
+ "n_infer": 641010,
+ "device": "cuda"
+}

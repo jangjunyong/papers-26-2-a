@@ -1,0 +1,17 @@
+[{"stream_name":"stdout","time":12.426539966,"data":"입력 /kaggle/input/kospi-chart-v3/ | 장치 cuda Tesla T4 | 시드 [4]\n"}
+,{"stream_name":"stdout","time":41.619114615,"data":"학습 1,248,636 검증 335,361 추론 641,010장, 학습 상승 비율 0.481\n"}
+,{"stream_name":"stdout","time":2330.841237576,"data":"seed4 epoch 1: val loss 0.69091\n"}
+,{"stream_name":"stdout","time":4622.8584031,"data":"seed4 epoch 2: val loss 0.69603\n"}
+,{"stream_name":"stdout","time":6911.651540514,"data":"seed4 epoch 3: val loss 0.68824\n"}
+,{"stream_name":"stdout","time":9204.737425189,"data":"seed4 epoch 4: val loss 0.69150\n"}
+,{"stream_name":"stdout","time":11494.303462306,"data":"seed4 epoch 5: val loss 0.68733\n"}
+,{"stream_name":"stdout","time":13784.389862989,"data":"seed4 epoch 6: val loss 0.68884\n"}
+,{"stream_name":"stdout","time":16076.926808898,"data":"seed4 epoch 7: val loss 0.68826\n"}
+,{"stream_name":"stdout","time":16220.743635637,"data":"seed4 끝 269.7분\n"}
+,{"stream_name":"stderr","time":16227.549893748,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":16227.54993032,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":16227.861723469,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":16227.861772514,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":16228.733312278,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":16229.795993246,"data":"[NbConvertApp] Writing 311127 bytes to __results__.html\n"}
+]

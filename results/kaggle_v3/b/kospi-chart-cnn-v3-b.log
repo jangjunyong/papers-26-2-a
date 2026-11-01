@@ -1,0 +1,22 @@
+[{"stream_name":"stdout","time":8.709125337,"data":"입력 /kaggle/input/datasets/junyong928/kospi-chart-v3/ | 장치 cuda Tesla T4 | 시드 [2, 3]\n"}
+,{"stream_name":"stdout","time":34.543625491,"data":"학습 1,248,636 검증 335,361 추론 641,010장, 학습 상승 비율 0.481\n"}
+,{"stream_name":"stdout","time":1788.299245129,"data":"seed2 epoch 1: val loss 0.69055\n"}
+,{"stream_name":"stdout","time":3539.345898072,"data":"seed2 epoch 2: val loss 0.68901\n"}
+,{"stream_name":"stdout","time":5294.399459527,"data":"seed2 epoch 3: val loss 0.69612\n"}
+,{"stream_name":"stdout","time":7045.854574803,"data":"seed2 epoch 4: val loss 0.69201\n"}
+,{"stream_name":"stdout","time":7175.926605027,"data":"seed2 끝 119.0분\n"}
+,{"stream_name":"stdout","time":8929.641204664,"data":"seed3 epoch 1: val loss 0.69928\n"}
+,{"stream_name":"stdout","time":10679.731223585,"data":"seed3 epoch 2: val loss 0.68865\n"}
+,{"stream_name":"stdout","time":12431.457381984,"data":"seed3 epoch 3: val loss 0.69320\n"}
+,{"stream_name":"stdout","time":14179.159360951,"data":"seed3 epoch 4: val loss 0.68843\n"}
+,{"stream_name":"stdout","time":15930.880577806,"data":"seed3 epoch 5: val loss 0.68712\n"}
+,{"stream_name":"stdout","time":17678.04554523,"data":"seed3 epoch 6: val loss 0.69049\n"}
+,{"stream_name":"stdout","time":19428.978697078,"data":"seed3 epoch 7: val loss 0.68925\n"}
+,{"stream_name":"stdout","time":19558.038657538,"data":"seed3 끝 206.4분\n"}
+,{"stream_name":"stderr","time":19563.4549891,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19563.455030006,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19563.699877459,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19563.699908222,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":19564.480844368,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19565.405005063,"data":"[NbConvertApp] Writing 311177 bytes to __results__.html\n"}
+]
