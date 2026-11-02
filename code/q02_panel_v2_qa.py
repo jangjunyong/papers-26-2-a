@@ -14,7 +14,7 @@ import pandas as pd
 
 warnings.filterwarnings("ignore")
 PAPERS = "C:/Users/jacob/Documents/Obsidian Vault/PAPERS"
-B = f"{PAPERS}/26-2/03_차트CNN_연구"
+B = f"{PAPERS}/26-2/연구"
 CODE, RES = f"{B}/code", f"{B}/results"
 CB = f"{PAPERS}/data/daily/club_db"
 CACHE = os.environ.get("Q02_CACHE", os.path.join(tempfile.gettempdir(), "q02_cache.pkl"))

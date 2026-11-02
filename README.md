@@ -36,7 +36,7 @@ status: seed
 
 - **KOSPI 가격은 볼트에 이미 있는 DataGuide 일별 원본을 쓴다**(`data/원본_데이터/0_data/`, 상장+상폐 1,320종목, 2000-01-04~2026-04). `code/dg.py`가 엑셀을 `data/daily/dg/*.parquet`로 바꾸고, `dg.frames()`가 수정 OHLCV를 만든다(수정 비율 = 수정주가/종가, 거래정지일은 NaN).
 - 검증: pykrx로 받았던 200종목과 일간 수익률을 대조하면 중앙값 차이가 0.0035%다. 예외 2종목(004550, 014900)은 거래정지 중 감자·분할을 DataGuide 수정주가가 보정하지 않았다.
-- 추가로 필요한 것(투자자별 순매수, KOSDAQ)은 [[PAPERS/26-2/03_차트CNN_연구/DataGuide_다운로드_요청|DataGuide_다운로드_요청]]에 정리했다. 사람이 직접 받는다.
+- 추가로 필요한 것(투자자별 순매수, KOSDAQ)은 [[PAPERS/26-2/연구/기획_조사/DataGuide_다운로드_요청|DataGuide_다운로드_요청]]에 정리했다. 사람이 직접 받는다.
 - 실행: `py -3 code/03_pilot_dg.py [스레드]` — KOSPI 전 보통주(2004-06~2012-12에 거래가 있는 853종목) 파일럿. CNN, 단순 지표, 상관을 한 번에 본다.
 - 병렬 탐색 결과: A2 `results/a2_memo.md`(H1 파일럿, 잠정 '반전 없음'), A3 `results/a3_memo.md`(단순 지표 > CNN), A4 `results/a4_memo.md`(매일 이미지로 데이터 5배 → 검증 손실 0.698).
 

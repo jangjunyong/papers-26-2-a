@@ -18,8 +18,8 @@ D = f"{PAPERS}/data"
 CB = f"{D}/daily/club_db"
 DG = f"{D}/daily/dg"
 POL = f"{D}/제도일정"
-RES = f"{PAPERS}/26-2/03_차트CNN_연구/results"
-P01 = f"{PAPERS}/26-2/03_차트CNN_연구/code/p01_build_panel.py"
+RES = f"{PAPERS}/26-2/연구/results"
+P01 = f"{PAPERS}/26-2/연구/code/p01_build_panel.py"
 PRED = f"{RES}/kaggle/pred_d_lr1e-4.parquet"
 OUT_MD = f"{RES}/q01_panel_qa.md"
 OUT_FLAGS = f"{RES}/q01_panel_flags.parquet"
@@ -957,7 +957,7 @@ title: 차트 CNN 분석 패널 독립 감사 (q01)
 created: 2026-10-10
 updated: 2026-10-10
 tags: [dev/python, finance/퀀트]
-source: PAPERS/26-2/03_차트CNN_연구/code/q01_panel_qa.py 가 자동 생성. 대상 panel.parquet, 생성 코드 p01_build_panel.py, 대조 자료 data/daily/dg·제도일정
+source: PAPERS/26-2/연구/code/q01_panel_qa.py 가 자동 생성. 대상 panel.parquet, 생성 코드 p01_build_panel.py, 대조 자료 data/daily/dg·제도일정
 status: seed
 ---
 
