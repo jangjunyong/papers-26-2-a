@@ -1,0 +1,137 @@
+{
+ "1_cost_ladder": {
+  "none": {
+   "mean_pct": 0.968,
+   "sharpe": 2.82
+  },
+  "fee": {
+   "mean_pct": 0.595,
+   "sharpe": 1.73
+  },
+  "fee+spread_tick": {
+   "mean_pct": 0.337,
+   "sharpe": 0.98
+  },
+  "fee+spread_cs": {
+   "mean_pct": -0.73,
+   "sharpe": -2.07
+  }
+ },
+ "2_jbk_frame": {
+  "cnn_all|close": {
+   "ew": {
+    "mean_pct": 0.544,
+    "sharpe": 2.3,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 0.548,
+    "sharpe": 1.19,
+    "weeks": 729
+   }
+  },
+  "cnn_all|next_open": {
+   "ew": {
+    "mean_pct": 0.713,
+    "sharpe": 3.0,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 0.681,
+    "sharpe": 1.47,
+    "weeks": 729
+   }
+  },
+  "cnn_cand|close": {
+   "ew": {
+    "mean_pct": 0.517,
+    "sharpe": 1.95,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 0.53,
+    "sharpe": 1.14,
+    "weeks": 729
+   }
+  },
+  "cnn_cand|next_open": {
+   "ew": {
+    "mean_pct": 0.748,
+    "sharpe": 2.82,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 0.672,
+    "sharpe": 1.44,
+    "weeks": 729
+   }
+  },
+  "main_cand|close": {
+   "ew": {
+    "mean_pct": 0.763,
+    "sharpe": 2.26,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 0.883,
+    "sharpe": 1.59,
+    "weeks": 729
+   }
+  },
+  "main_cand|next_open": {
+   "ew": {
+    "mean_pct": 1.056,
+    "sharpe": 3.19,
+    "weeks": 729
+   },
+   "vw": {
+    "mean_pct": 1.081,
+    "sharpe": 1.99,
+    "weeks": 729
+   }
+  }
+ },
+ "3_size_median": {
+  "kospi_low20_cap": 91130231700.0,
+  "kospi_low20_tv60": 111121720.29166666,
+  "kospi_cand_cap": 350847339152.0,
+  "kospi_cand_tv60": 2237420883.2666664,
+  "kosdaq_top100_cap": 675837826980.0,
+  "kosdaq_top100_tv60": 8213316734.458334,
+  "kosdaq_share_pass_filter": 0.7750511247443763,
+  "top500_cap_cut": 308293499500.0,
+  "top500_n_kosdaq": 158.0,
+  "kospi_cand_n": 625.0,
+  "kospi_cand_in_top500": 329.0
+ },
+ "4_reversal_by_group": {
+  "kospi_low20": {
+   "n_per_date": 147,
+   "tv60_median_eok": 1.1,
+   "mean_pct": 0.472,
+   "sharpe": 1.39,
+   "weeks": 729
+  },
+  "kospi_cand": {
+   "n_per_date": 620,
+   "tv60_median_eok": 24.6,
+   "mean_pct": 0.11,
+   "sharpe": 0.32,
+   "weeks": 729
+  },
+  "kosdaq_top150": {
+   "n_per_date": 149,
+   "tv60_median_eok": 66.0,
+   "mean_pct": -0.184,
+   "sharpe": -0.35,
+   "weeks": 729
+  },
+  "kosdaq_rest": {
+   "n_per_date": 1150,
+   "tv60_median_eok": 8.8,
+   "mean_pct": 0.289,
+   "sharpe": 0.9,
+   "weeks": 729
+  }
+ }
+}
