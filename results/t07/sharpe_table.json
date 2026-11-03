@@ -1,0 +1,39 @@
+{
+ "P": {
+  "ic": 0.0808,
+  "none": 2.02,
+  "gross": 1.2,
+  "net_tick": 0.3,
+  "ex_tick": -0.42,
+  "net_cs": -1.04,
+  "ex_cs": -2.28
+ },
+ "P+C": {
+  "ic": 0.0875,
+  "none": 2.47,
+  "gross": 1.51,
+  "net_tick": 0.58,
+  "ex_tick": -0.0,
+  "net_cs": -0.74,
+  "ex_cs": -1.82
+ },
+ "P+F": {
+  "ic": 0.087,
+  "none": 2.43,
+  "gross": 1.69,
+  "net_tick": 0.79,
+  "ex_tick": 0.24,
+  "net_cs": -0.52,
+  "ex_cs": -1.54
+ },
+ "P+C+F": {
+  "ic": 0.0938,
+  "none": 2.82,
+  "gross": 1.77,
+  "net_tick": 0.86,
+  "ex_tick": 0.35,
+  "net_cs": -0.43,
+  "ex_cs": -1.43
+ },
+ "market_vw": 0.72
+}
