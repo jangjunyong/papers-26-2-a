@@ -1,7 +1,7 @@
 ---
 title: 차트 CNN 연구 — 코드와 실행 순서
 created: 2026-10-05
-updated: 2026-11-03
+updated: 2026-11-16
 tags: [contest/papers, finance/퀀트, dev/python]
 source: 연구계획 5절 3·9·10단계, Jiang·Kelly·Xiu(2023) 이미지·모델 규격
 status: seed
@@ -11,9 +11,9 @@ status: seed
 
 계획 원문: [[연구계획_필독논문_선행판정]] · 기획안: [[[26-2 페이퍼스 2주차] A조_차트 딥러닝 알파의 결정 요인과 실현 가능성]]
 
-## 저장소와 자료 (2026-11-03)
+## 저장소와 자료 (2026-11-16)
 
-- 비공개 GitHub 저장소 `jangjunyong/papers-26-2-a`에 코드·보고서·사전고정 문서·결과 숫자를 올린다. A조(장준용·유주석)만 접근한다.
+- GitHub 저장소 `jangjunyong/papers-26-2-a`에 코드·보고서·사전고정 문서·결과 숫자를 올린다. 2026-11-16부터 공개 저장소다.
 - **DataGuide 자료(원본·가공 parquet·csv·xlsx), CNN 가중치(`*.pt`), 논문 PDF는 저장소에 넣지 않는다**(`.gitignore`). FnGuide 이용안내가 계약 이용자 밖 공유와 DB 구축 활용을 금지하므로 GitHub·공개 클라우드·Kaggle에 원본을 올리지 않는다(Kaggle에는 파생 차트 그림만).
 - 자료는 볼트의 `PAPERS/data/`에 둔다. 팀원끼리는 USB 등으로 직접 주고받거나, 관리자 승인 시 동아리 DB로 공유한다.
 - 비밀번호·API 키는 Windows 자격 증명 관리자(`keyring`)에서 읽으며 저장소에 적지 않는다.
